@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1><i class="fas fa-check-double"></i> Mi Lista de Tareas</h1>
+            <button id="themeToggle" aria-label="Alternar modo oscuro/claro">
+                <i class="fas fa-moon"></i> <i class="fas fa-sun"></i>
+            </button>
+        </header>
+        <main class="app-main">
+            <section class="input-section">
+                <div class="input-group">
+                    <label for="newTask">Nueva Tarea:</label>
+                    <input type="text" id="newTask" placeholder="Escribe aquí tu tarea">
+                </div>
+                <button id="addTaskBtn" class="add-button"><i class="fas fa-plus"></i> Agregar Tarea</button>
+            </section>
+            <section class="task-list-section">
+                <h2>Tareas Pendientes</h2>
+                <div class="table-wrapper">
+                    <table id="taskList">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Tarea</th>
+                                <th class="actions">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            </tbody>
+                    </table>
+                    <p id="emptyMessage" class="empty-message">No hay tareas pendientes.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="app-footer">
+            <p>Sígueme en Instagram: <a href="https://www.instagram.com/s4tker" target="_blank" rel="noopener noreferrer">@s4tker</a></p>
+            <p>Contáctame por Gmail: <a href="mailto:s4tker@gmail.com">s4tker@gmail.com</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
