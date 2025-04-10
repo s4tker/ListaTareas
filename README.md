@@ -2,7 +2,7 @@
 
 Este es un proyecto simple de lista de tareas hecho con HTML, CSS y JavaScript.
 
-## Funcionalidades
+-- Funcionalidades
 
 - Agregar tareas
 - Eliminar tareas
